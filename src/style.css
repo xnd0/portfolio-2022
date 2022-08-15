@@ -32,3 +32,14 @@ body {
     max-height: 30px;
     background-image: linear-gradient(#F2FCFF, #25252A);
 }
+
+.vertical-fade-reverse {
+    min-height: 20px;
+    max-height: 30px;
+    background-image: linear-gradient(#25252A, #F2FCFF);
+}
+
+.footer {
+    background-color: #F2FCFF;
+    color:black;
+}

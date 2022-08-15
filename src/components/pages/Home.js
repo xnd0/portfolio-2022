@@ -11,7 +11,7 @@ export default function Home() {
       <p>My name is Xander.</p>
       <p>I am a Full Stack Developer.</p>
       <img src= {spacesurfer} alt="spaceman surfing"/>
-    {/* <br></br> */}
+      <div class="vertical-fade-reverse"></div>
     </div>
   );
 }
