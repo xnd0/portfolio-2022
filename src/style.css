@@ -1,0 +1,16 @@
+/* ----------------------------------------------- */
+/* -- Custom Cascading Style Sheet -- style.css -- */
+/* ----------------------------------------------- */
+
+
+body {
+    background-color: #25252A;
+}
+
+
+
+/* -- Classes -- */
+
+.light-text {
+    color: #F2FCFF;
+}
