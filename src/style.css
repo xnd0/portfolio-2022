@@ -14,3 +14,10 @@ body {
 .light-text {
     color: #F2FCFF;
 }
+
+.center {
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
