@@ -14,6 +14,7 @@ export default function Footer() {
           <img class="logo"src={emailLogo} alt="email envelope logo"/> 
            <a href="mailto:xdrcode@gmail.com">xdrcode@gmail.com</a>
           </div>
+          <div class="vertical-fade"></div>
         </div>
     )
 };
