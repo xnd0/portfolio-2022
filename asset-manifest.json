@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/portfolio-2022/static/css/main.a011dbf8.css",
+    "main.js": "/portfolio-2022/static/js/main.057d2a8f.js",
+    "static/media/space-surfer.png": "/portfolio-2022/static/media/space-surfer.81dac58c1a9c84e58a8f.png",
+    "static/media/email-logo.png": "/portfolio-2022/static/media/email-logo.9da303c996cd28974493.png",
+    "index.html": "/portfolio-2022/index.html",
+    "main.a011dbf8.css.map": "/portfolio-2022/static/css/main.a011dbf8.css.map",
+    "main.057d2a8f.js.map": "/portfolio-2022/static/js/main.057d2a8f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a011dbf8.css",
+    "static/js/main.057d2a8f.js"
+  ]
+}
