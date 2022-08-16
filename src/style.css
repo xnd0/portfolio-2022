@@ -26,8 +26,24 @@ body {
     background-color: rgb(25, 26, 82);
     margin: 8px;
     border-radius: 8px;
-    text-overflow: ;
+    transition: 0.5s ease-in-out;
 }
+
+.app-card:hover {
+    /* transition: 0.5s ease-in-out; */
+    transition: background-color 0.5s ease;
+    background-color: rgb(155, 15, 15);
+}
+
+.fade {
+    /* transition: 0.5s ease-in-out; */
+    animation: fadeIn 1s forwards;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0.05; }
+    100% { opacity: 1; }
+  }
 
 .light-text {
     color: #F2FCFF;
@@ -64,5 +80,6 @@ body {
 
 .footer {
     background-color: #F2FCFF;
-    color:rgb(10, 4, 40);
+    color: rgb(10, 4, 40);
 }
+

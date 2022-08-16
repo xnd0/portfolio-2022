@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function About() {
   return (
-    <div class="light-text center">
+    <div class="light-text center fade">
       <div class="vertical-fade"></div>
       <br></br>
       <h1>About</h1>
