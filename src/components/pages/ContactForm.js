@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const FORM_ENDPOINT = ""; // TODO - fill on the later step
+const FORM_ENDPOINT = "mailto:xdrcode@gmail.com";
 
 const ContactForm = () => {
   const [submitted, setSubmitted] = useState(false);
@@ -12,14 +12,26 @@ const ContactForm = () => {
 
   if (submitted) {
     return (
-      <>
+      <div class="center fade light-text">
+        <div class="vertical-fade"></div>
+        <br></br>
         <div className="text-2xl">Thank you!</div>
         <div className="text-md">We'll be in touch soon.</div>
-      </>
+        <div className="text-md">...so long as you sent the email!</div>
+        <br></br>
+        <div className="text-md">Follow up at xdrcode@gmail.com</div>
+        <br></br>
+        <div class="vertical-fade-reverse"></div>
+      </div>
     );
   }
 
   return (
+    
+    <div class="center fade light-text">
+      <div class="vertical-fade"></div>
+      <br></br>
+      <h1>Contact Me</h1>
     <form
       action={FORM_ENDPOINT}
       onSubmit={handleSubmit}
@@ -54,13 +66,16 @@ const ContactForm = () => {
       </div>
       <div className="mb-3 pt-0">
         <button
-          className="bg-blue-500 text-white active:bg-blue-600 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+          className="bg-blue-900 text-white active:bg-blue-600 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
           type="submit"
         >
-          Send a message
+          <h4 class="dark-text">Send Message</h4>
+          
         </button>
       </div>
     </form>
+    <div class="vertical-fade-reverse"></div>
+    </div>
   );
 };
 

@@ -41,12 +41,21 @@ body {
 }
 
 @keyframes fadeIn {
-    0% { opacity: 0.05; }
-    100% { opacity: 1; }
-  }
+    0% {
+        opacity: 0.05;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
 
 .light-text {
     color: #F2FCFF;
+}
+
+.dark-text {
+    color: rgb(10, 4, 40);
 }
 
 .nav-bg-color {
@@ -82,4 +91,3 @@ body {
     background-color: #F2FCFF;
     color: rgb(10, 4, 40);
 }
-
