@@ -10,6 +10,7 @@ export default function About() {
       <p>
         Front-End · UI/UX · Back-End
         <br></br>
+        MVC  ·  MERN
         <br></br>
         Javascript | ReactJS | Bootstrap | JSX + HTML | HandlebarsJS | CSS | Sequelize | Express | GraphQL | NodeJS | Python | MySQL | MongoDB
       </p>

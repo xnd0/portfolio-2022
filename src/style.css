@@ -4,15 +4,38 @@
 
 
 body {
-    background-color: #25252A;
+    /* background-color: #25252A; */
+    background-color: #17173b;
 }
 
 
 
 /* -- Classes -- */
 
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.app-card {
+    min-width: 180px;
+    min-height: 180px;
+    /* max-width: 200px;
+    max-height: 200px; */
+    background-color: rgb(25, 26, 82);
+    margin: 8px;
+    border-radius: 8px;
+    text-overflow: ;
+}
+
 .light-text {
     color: #F2FCFF;
+}
+
+.nav-bg-color {
+    /* background-color:  #08080b; */
+    background-color: rgb(4, 2, 16);
 }
 
 .center {
@@ -41,5 +64,5 @@ body {
 
 .footer {
     background-color: #F2FCFF;
-    color:black;
+    color:rgb(10, 4, 40);
 }

@@ -5,7 +5,7 @@ import spacesurfer from './pages/space-surfer.png'
 // We assign them to their own variable names
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <div class="center">
+    <div class="center nav-bg-color">
       {/* <div class="logo"> */}
         {/* <img class="logo"src={spacesurfer} alt="spaceman surfing" /> */}
       {/* </div> */}
