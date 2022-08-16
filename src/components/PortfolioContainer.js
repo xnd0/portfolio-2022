@@ -3,6 +3,7 @@ import NavTabs from './NavTabs';
 import Home from './pages/Home';
 import About from './pages/About';
 import Contact from './pages/Contact';
+import ContactForm from './pages/ContactForm';
 import Footer from './Footer';
 
 
@@ -16,6 +17,9 @@ export default function PortfolioContainer() {
     }
     if (currentPage === 'About') {
       return <About />;
+    }
+    if (currentPage === 'ContactForm') {
+      return <ContactForm />;
     }
     return <Contact />;
   };

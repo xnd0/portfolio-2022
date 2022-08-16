@@ -34,6 +34,18 @@ function NavTabs({ currentPage, handlePageChange }) {
             About
           </a>
         </li>
+
+        <li className="nav-item">
+          <a
+            href="#contactform"
+            onClick={() => handlePageChange('ContactForm')}
+            // Check to see if the currentPage is `ContactForm`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
+            className={currentPage === 'ContactForm' ? 'nav-link active' : 'nav-link'}
+          >
+            ContactForm
+          </a>
+        </li>
+
         <li className="nav-item">
           <a
             href="#contact"

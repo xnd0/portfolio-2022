@@ -10,6 +10,7 @@ export default function Contact() {
       <p>
         <h3>xdrcode@gmail.com</h3>
       </p>
+      
       <br></br>
       <div class="vertical-fade-reverse"></div>
     </div>
