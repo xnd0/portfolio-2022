@@ -10,7 +10,7 @@ function NavTabs({ currentPage, handlePageChange }) {
         {/* <img class="logo"src={spacesurfer} alt="spaceman surfing" /> */}
       {/* </div> */}
       <div class="light-text">
-        <img class="logo"src={spacesurfer} alt="spaceman surfing" /> xnd0 gitHub portfolio page <img class="logo"src={spacesurfer} alt="spaceman surfing" />
+        <img class="logo"src={spacesurfer} alt="spaceman surfing" /> The xnd0 gitHub portfolio page <img class="logo"src={spacesurfer} alt="spaceman surfing" />
         </div>
       <ul className="nav nav-tabs center">
         <li className="nav-item">
@@ -53,7 +53,7 @@ function NavTabs({ currentPage, handlePageChange }) {
             // Check to see if the currentPage is `ContactForm`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
             className={currentPage === 'ContactForm' ? 'nav-link active' : 'nav-link'}
           >
-            ContactForm
+            Contact Form
           </a>
         </li>
 

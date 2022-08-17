@@ -8,6 +8,9 @@ body {
     background-color: #17173b;
 }
 
+a:link {
+    text-decoration: none;
+}
 
 
 /* -- Classes -- */
@@ -19,20 +22,44 @@ body {
 }
 
 .app-card {
-    min-width: 180px;
-    min-height: 180px;
+    width: 340px;
+    height: 210px;
+    /* min-width: 180px;
+    min-height: 180px; */
     /* max-width: 200px;
     max-height: 200px; */
     background-color: rgb(25, 26, 82);
     margin: 8px;
     border-radius: 8px;
     transition: 0.5s ease-in-out;
+    padding: 4px;
+}
+
+.app-card-content {
+    display: inline-block;
+}
+
+.app-title {
+    color:antiquewhite;
+    font-size: 1.1rem;
+}
+
+.smaller-text {
+    font-size: 0.85rem;
+}
+
+.app-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 4px;
+    background-color: mediumseagreen;
 }
 
 .app-card:hover {
     /* transition: 0.5s ease-in-out; */
     transition: background-color 0.5s ease;
-    background-color: rgb(155, 15, 15);
+    /* background-color: rgb(155, 15, 15); */
+    background-color: rgb(114, 14, 14);
 }
 
 .fade {

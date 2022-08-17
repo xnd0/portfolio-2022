@@ -10,9 +10,13 @@ export default function About() {
       <p>
         Front-End · UI/UX · Back-End
         <br></br>
+        <br></br>
         MVC  ·  MERN
         <br></br>
+        <br></br>
         Javascript | ReactJS | Bootstrap | JSX + HTML | HandlebarsJS | CSS | Sequelize | Express | GraphQL | NodeJS | Python | MySQL | MongoDB
+        <br></br>
+        <br></br>
       </p>
       <div class="vertical-fade-reverse"></div>
     </div>

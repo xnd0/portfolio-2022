@@ -19,7 +19,7 @@ const ContactForm = () => {
         <div className="text-md">We'll be in touch soon.</div>
         <div className="text-md">...so long as you sent the email!</div>
         <br></br>
-        <div className="text-md">Follow up at xdrcode@gmail.com</div>
+        <div className="text-md">Follow up at: xdrcode@gmail.com</div>
         <br></br>
         <div class="vertical-fade-reverse"></div>
       </div>
