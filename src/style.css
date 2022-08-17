@@ -53,8 +53,9 @@ a:link {
 .app-img {
     width: 80px;
     height: 80px;
+    border: 1px solid black;
     border-radius: 4px;
-    background-color: mediumseagreen;
+    background-color: black;
 }
 
 .app-card:hover {
