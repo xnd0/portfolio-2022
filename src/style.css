@@ -5,7 +5,8 @@
 
 body {
     /* background-color: #25252A; */
-    background-color: #17173b;
+    /* background-color: #17173b; */
+    background-image: linear-gradient(#0f0f2b, #080814);
 }
 
 a:link {
@@ -33,6 +34,7 @@ a:link {
     border-radius: 8px;
     transition: 0.5s ease-in-out;
     padding: 4px;
+    box-shadow: 0 2px 4px 0 rgba(45, 34, 103, 0.2), 0 3px 10px 0 rgba(60, 92, 148, 0.19);
 }
 
 .app-card-content {
