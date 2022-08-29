@@ -103,6 +103,7 @@ a:link {
 .logo {
     max-height: 30px;
     max-width: 30px;
+    margin: 3px;
 }
 
 .vertical-fade {
@@ -117,7 +118,14 @@ a:link {
     background-image: linear-gradient(#25252A, #F2FCFF);
 }
 
+.header {
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+
 .footer {
     background-color: #F2FCFF;
     color: rgb(10, 4, 40);
+    z-index: 2;
 }

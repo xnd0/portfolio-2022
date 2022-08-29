@@ -13,7 +13,7 @@ const ContactForm = () => {
   if (submitted) {
     return (
       <div class="center fade light-text">
-        <div class="vertical-fade"></div>
+    
         <br></br>
         <div className="text-2xl">Thank you!</div>
         <div className="text-md">We'll be in touch soon.</div>
@@ -29,9 +29,10 @@ const ContactForm = () => {
   return (
     
     <div class="center fade light-text">
-      <div class="vertical-fade"></div>
+     
       <br></br>
       <h1>Contact Me</h1>
+      <br></br>
     <form
       action={FORM_ENDPOINT}
       onSubmit={handleSubmit}

@@ -5,13 +5,13 @@ import spacesurfer from './pages/space-surfer.png'
 // We assign them to their own variable names
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <div class="center nav-bg-color">
+    <div class="center nav-bg-color header">
       {/* <div class="logo"> */}
-        {/* <img class="logo"src={spacesurfer} alt="spaceman surfing" /> */}
+      {/* <img class="logo"src={spacesurfer} alt="spaceman surfing" /> */}
       {/* </div> */}
       <div class="light-text">
-        <img class="logo"src={spacesurfer} alt="spaceman surfing" /> The xnd0 gitHub portfolio page <img class="logo"src={spacesurfer} alt="spaceman surfing" />
-        </div>
+        <img class="logo" src={spacesurfer} alt="spaceman surfing" /> The xnd0 gitHub portfolio page <img class="logo" src={spacesurfer} alt="spaceman surfing" />
+      </div>
       <ul className="nav nav-tabs center">
         <li className="nav-item">
           <a
@@ -58,6 +58,8 @@ function NavTabs({ currentPage, handlePageChange }) {
         </li>
 
       </ul>
+
+      <div class="vertical-fade"></div>
     </div>
   );
 }
