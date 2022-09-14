@@ -5,9 +5,9 @@ export default function Contact() {
     <div class="light-text center fade">
 
       <br></br>
-      <h1>Resume</h1>
+      <h1>Contact</h1>
       <br></br>
-      <h5>For resume inquiries, please send a request to:</h5>
+      <h5>For resume or other inquiries, please send a request to:</h5>
       <br></br>
       <p>
         <h3>xdrcode@gmail.com</h3>
