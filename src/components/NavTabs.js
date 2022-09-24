@@ -59,7 +59,7 @@ function NavTabs({ currentPage, handlePageChange }) {
 
       </ul>
 
-      <div class="vertical-fade"></div>
+      {/* <div class="vertical-fade fade"></div> */}
     </div>
   );
 }

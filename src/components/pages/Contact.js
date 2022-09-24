@@ -3,6 +3,7 @@ import React from 'react';
 export default function Contact() {
   return (
     <div class="light-text center fade">
+      <div class="vertical-fade"></div> 
 
       <br></br>
       <h1>Contact</h1>
