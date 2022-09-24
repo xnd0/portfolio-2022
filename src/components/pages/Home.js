@@ -24,18 +24,21 @@ export default function Home() {
       <a href="https://github.com/xnd0/CmdLine_OrgChart_12.1">
         <section class="app-card">
           <div class="app-title"> Command Line Org Chart Generator </div>
+          
           <section>
             <div class="app-img app-card-content">
             <img src={orgchart} alt="orgchart generator screenshot" class="app-img"/>
             </div>
-            <p class="light-text smaller-text">
-            A command line orgchart generator - to manage an employee database. It uses Node.js, Inquirer, and MySQL. (Since this program runs entirely in the terminal via node.js, redirect to repo)
+            <p class="light-text">
+            A command line orgchart generator - to manage an employee database. It uses Node.js, Inquirer, and MySQL.
             </p>
+            
           </section>
         </section>
         </a>
 
-        <a href="https://supermarche-fromage-49994.herokuapp.com/">
+        {/* <a href="https://supermarche-fromage-49994.herokuapp.com/"> */}
+        <a href="https://github.com/xnd0/FigJam">
         <section class="app-card">
           <div class="app-title"> FigJam </div>
           <section>
@@ -49,6 +52,7 @@ export default function Home() {
         </section>
         </a>
 
+        {/* <a href="https://vast-headland-20181.herokuapp.com/"> */}
         <a href="https://vast-headland-20181.herokuapp.com/">
         <section class="app-card">
           <div class="app-title"> Custom GoogleBooks API Search </div>
@@ -71,13 +75,14 @@ export default function Home() {
             <img src={pour} alt="find your pour screenshot" class="app-img"/>
             </div>
             <p class="light-text">
-            A website for wine professionals & enthusiasts - wineries may register and post information about their wines, to be displayed on the 'complete wine list'. 
+            A website for wine professionals & enthusiasts - wineries may register and post information about their wines, to be displayed on the 'complete wine list'.
             </p>
           </section>
         </section>
         </a>
 
-        <a href="https://xnd0.github.io/Are_We_There_Yet_Adventure_App/">
+        {/* <a href="https://xnd0.github.io/Are_We_There_Yet_Adventure_App/"> */}
+        <a href="https://github.com/xnd0/Are_We_There_Yet_Adventure_App">
         <section class="app-card">
           <div class="app-title"> Are We There Yet </div>
           <section>
@@ -98,8 +103,8 @@ export default function Home() {
             <div class="app-img app-card-content">
             <img src={tcg} alt="team card generator screenshot" class="app-img"/>
             </div>
-            <p class="light-text smaller-text">
-            A command line application - to record employee information from a software engineering team and generate an HTML file that displays their info. (since this program runs entirely in the terminal via node.js, redirect to repo)
+            <p class="light-text">
+            A command line application - to record employee information from a software engineering team and generate an HTML file that displays their info.
             </p>
           </section>
         </section>
