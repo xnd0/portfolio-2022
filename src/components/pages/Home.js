@@ -31,7 +31,7 @@ export default function Home() {
             <img src={orgchart} alt="orgchart generator screenshot" class="app-img"/>
             </div>
             <p class="light-text">
-            A command line orgchart generator - to manage an employee database. It uses Node.js, Inquirer, and MySQL.
+            A command line orgchart generator - to create and manage an employee database. It uses Node, Inquirer, and MySQL.
             </p>
             
           </section>
@@ -62,7 +62,7 @@ export default function Home() {
             <img src={gbooks} alt="google booksearch screenshot" class="app-img"/>
             </div>
             <p class="light-text">
-            An app to search google books API - allows users to create an account to save titles for later. User must be logged in to save books to their account.
+            An app to search google books API - allows users to create an account to save titles for later. User must login to save books to their account.
             </p>
           </section>
         </section>
@@ -75,7 +75,7 @@ export default function Home() {
             <div class="app-img app-card-content">
             <img src={pour} alt="find your pour screenshot" class="app-img"/>
             </div>
-            <p class="light-text">
+            <p class="light-text smaller-text">
             A website for wine professionals & enthusiasts - wineries may register and post information about their wines, to be displayed on the 'complete wine list'.
             </p>
           </section>
@@ -90,7 +90,7 @@ export default function Home() {
             <div class="app-img app-card-content">
             <img src={awty} alt="are we there yet screenshot" class="app-img"/>
             </div>
-            <p class="light-text">
+            <p class="light-text smaller-text">
             An app for adventure - search by state to discover national parks and landmarks. Results are returned on the mainpage map. Save favorite places to remember for later.
             </p>
           </section>
@@ -104,7 +104,7 @@ export default function Home() {
             <div class="app-img app-card-content">
             <img src={tcg} alt="team card generator screenshot" class="app-img"/>
             </div>
-            <p class="light-text">
+            <p class="light-text smaller-text">
             A command line application - to record employee information from a software engineering team and generate an HTML file that displays their info.
             </p>
           </section>
