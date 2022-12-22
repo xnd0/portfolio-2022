@@ -22,8 +22,12 @@ export default function Home() {
         <img id='profilepic' src={miniProfile} alt="Mini Profile Pic" />
 
         <div className='intro-words'>
-          <p>My name is Xander.</p>
-          <p>I am a Full Stack Developer.</p>
+
+          <h6>My name is Xander.</h6>
+          <h6>I am a Full Stack Developer.</h6>
+
+          {/* <p>My name is Xander.</p>
+          <p>I am a Full Stack Developer.</p> */}
         </div>
 
         {/* <img src={spacesurfer} alt="spaceman surfing" /> */}
@@ -31,7 +35,9 @@ export default function Home() {
       </div>
 
       <br></br>
-      <p>Here are links to some of my gitHub projects:</p>
+      <div className='intro-words-2'>
+        <p>Here are some of my projects. Please find links to the live URL and/or gitHub repo for each app below:</p>
+      </div>
 
       <div class="flex">
 

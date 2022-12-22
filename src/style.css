@@ -148,6 +148,11 @@ a:link {
     /* justify-content: space-between; */
 }
 
+.intro-words-2 {
+    margin-left: 40px;
+    margin-right: 40px;
+}    
+
 .footer {
     background-color: #F2FCFF;
     color: rgb(10, 4, 40);
