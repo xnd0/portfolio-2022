@@ -135,8 +135,26 @@ a:link {
     z-index: 1;
 }
 
+.intro {
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.intro-words {
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    /* justify-content: space-between; */
+}
+
 .footer {
     background-color: #F2FCFF;
     color: rgb(10, 4, 40);
     z-index: 2;
+}
+
+#profilepic {
+    border-radius: 4px;
+    max-height: 22vh;
 }
