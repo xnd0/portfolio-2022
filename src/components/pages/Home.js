@@ -69,7 +69,7 @@ export default function Home() {
         </a>
 
         {/* <a href="https://supermarche-fromage-49994.herokuapp.com/"> */}
-        {/* <a href="https://github.com/xnd0/FigJam">
+        <a href="https://github.com/xnd0/FigJam">
         <section class="app-card">
           <div class="app-title"> FigJam </div>
           <section>
@@ -81,10 +81,10 @@ export default function Home() {
             </p>
           </section>
         </section>
-        </a> */}
+        </a>
 
         {/* <a href="https://vast-headland-20181.herokuapp.com/"> */}
-        {/* <a href="https://vast-headland-20181.herokuapp.com/">
+        <a href="https://vast-headland-20181.herokuapp.com/">
         <section class="app-card">
           <div class="app-title"> Custom GoogleBooks API Search </div>
           <section>
@@ -96,9 +96,9 @@ export default function Home() {
             </p>
           </section>
         </section>
-        </a> */}
+        </a>
 
-        {/* <a href="https://fierce-wildwood-04718.herokuapp.com/">
+        <a href="https://fierce-wildwood-04718.herokuapp.com/">
         <section class="app-card">
           <div class="app-title"> Find Your Pour </div>
           <section>
@@ -110,7 +110,7 @@ export default function Home() {
             </p>
           </section>
         </section>
-        </a> */}
+        </a>
 
         {/* <a href="https://xnd0.github.io/Are_We_There_Yet_Adventure_App/"> */}
         <a href="https://github.com/xnd0/Are_We_There_Yet_Adventure_App">
