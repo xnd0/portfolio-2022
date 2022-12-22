@@ -41,7 +41,8 @@ export default function Home() {
 
       <div class="flex">
 
-        <a href="https://github.com/xnd0/CmdLine_OrgChart_12.1">
+
+        {/* <a href="https://github.com/xnd0/CmdLine_OrgChart_12.1"> */}
           <section class="app-card">
             <div class="app-title"> Command Line Org Chart Generator </div>
 
@@ -53,9 +54,13 @@ export default function Home() {
                 A command line orgchart generator - to create and manage an employee database. It uses Node, Inquirer, and MySQL.
               </p>
 
+            <button> Live URL </button>
+            <button> gitHub Repo </button>
+
             </section>
           </section>
-        </a>
+        {/* </a> */}
+
 
         {/* <a href="WEST Coast smoke and FIRE"> */}
         <a href="https://github.com/xnd0/FigJam">
@@ -69,6 +74,8 @@ export default function Home() {
                 See real time information on wildfires and air quality index displayed on a map. Built with JavaScript, CSS, HTML, Leaflet, NASA API
               </p>
             </section>
+            <button> Live URL </button>
+            <button> gitHub Repo </button>
           </section>
         </a>
 
@@ -84,6 +91,8 @@ export default function Home() {
                 An ultra-lightweight touchscreen synth-piano web app:
               </p>
             </section>
+            <button> Live URL </button>
+            <button> gitHub Repo </button>
           </section>
         </a>
 

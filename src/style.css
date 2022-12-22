@@ -23,13 +23,14 @@ a:link {
 }
 
 .app-card {
-    width: 340px;
-    height: 210px;
+    width: 400px;
+    height: 280px;
+    /* height: 210px; */
     /* min-width: 180px;
     min-height: 180px; */
     /* max-width: 200px;
     max-height: 200px; */
-    background-color: rgb(25, 26, 82);
+    background-color: rgb(1, 1, 11);
     margin: 8px;
     border-radius: 8px;
     transition: 0.5s ease-in-out;
@@ -60,9 +61,10 @@ a:link {
 
 .app-card:hover {
     /* transition: 0.5s ease-in-out; */
-    transition: background-color 0.5s ease;
+    transition: box-shadow 0.5s ease;
     /* background-color: rgb(155, 15, 15); */
-    background-color: rgb(120, 15, 15);
+    /* background-color: rgb(120, 15, 15); */
+    box-shadow: 0 2px 4px 0 rgb(255, 246, 231), 0 3px 10px 0 rgb(164, 156, 142);
 }
 
 .fade {
@@ -159,7 +161,71 @@ a:link {
     z-index: 2;
 }
 
+/* Glow on Hover: */
+.glow-on-hover {
+    /* width: 220px;
+    height: 50px; */
+    
+    border: none;
+    outline: none;
+    color: #fff;
+    /* background: #111; */
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 1px;
+}
+
+.glow-on-hover:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.glow-on-hover:active {
+    color: #000
+}
+
+.glow-on-hover:active:after {
+    background: transparent;
+}
+
+.glow-on-hover:hover:before {
+    opacity: 1;
+}
+
+.glow-on-hover:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #111;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
+/* ^^^ Glow on Hover: ^^^ */
+
 #profilepic {
     border-radius: 4px;
     max-height: 22vh;
+    max-width: 22vw;
 }
