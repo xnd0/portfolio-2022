@@ -90,7 +90,16 @@ a:link {
 
 .nav-bg-color {
     /* background-color:  #08080b; */
-    background-color: rgb(4, 2, 16);
+    /* background-color: rgb(4, 2, 16); */
+    background-image: linear-gradient(rgb(4, 2, 16), rgb(20, 16, 46));
+    border-bottom: 1px solid white;
+}
+
+.nav-item {
+    background-image: linear-gradient(rgb(4, 2, 16), #0e0d38);
+    background-color: rgb(9, 5, 31);
+    border-left: 1px solid rgb(4, 2, 16);
+    border-radius: 4px 4px 0 0;
 }
 
 .center {
@@ -119,6 +128,8 @@ a:link {
 }
 
 .header {
+    display: flex;
+    justify-content: space-between;
     position: sticky;
     top: 0px;
     z-index: 1;
