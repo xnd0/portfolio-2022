@@ -6,7 +6,8 @@
 body {
     /* background-color: #25252A; */
     /* background-color: #17173b; */
-    background-image: linear-gradient(#161640, #080814);
+    /* background-image: linear-gradient(#161640, #080814); */
+    background-image: linear-gradient(#030326, #01010a);
 }
 
 a:link {
@@ -93,15 +94,17 @@ a:link {
 .nav-bg-color {
     /* background-color:  #08080b; */
     /* background-color: rgb(4, 2, 16); */
-    background-image: linear-gradient(rgb(4, 2, 16), rgb(20, 16, 46));
+    /* background-image: linear-gradient(rgb(4, 2, 16), rgb(20, 16, 46)); */
+    background-image: linear-gradient(to right, rgb(4, 2, 16), rgb(39, 58, 143));
     border-bottom: 1px solid white;
 }
 
 .nav-item {
     background-image: linear-gradient(rgb(4, 2, 16), #0e0d38);
     background-color: rgb(9, 5, 31);
-    border-left: 1px solid rgb(4, 2, 16);
+    /* border-left: 1px solid rgb(4, 2, 16); */
     border-radius: 4px 4px 0 0;
+    margin-right: 1px;
 }
 
 .center {
@@ -160,6 +163,7 @@ a:link {
     color: rgb(10, 4, 40);
     z-index: 2;
 }
+
 
 /* Glow on Hover: */
 .glow-on-hover {

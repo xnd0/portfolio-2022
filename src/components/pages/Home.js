@@ -1,5 +1,4 @@
 import React from 'react';
-import spacesurfer from './space-surfer.png'
 import miniProfile from './miniProfile.jpg'
 import tcg from './img/teamcardgen.png'
 import figjam from './img/figjam.png'
@@ -18,22 +17,14 @@ export default function Home() {
       <br></br>
 
       <div className='intro center'>
-
         <img id='profilepic' src={miniProfile} alt="Mini Profile Pic" />
-
         <div className='intro-words'>
-
           <h6>My name is Xander.</h6>
           <h6>I am a Full Stack Developer.</h6>
-
           {/* <p>My name is Xander.</p>
           <p>I am a Full Stack Developer.</p> */}
         </div>
-
-        {/* <img src={spacesurfer} alt="spaceman surfing" /> */}
-
       </div>
-
       <br></br>
       <div className='intro-words-2'>
         <p>Here are some of my projects. Please find links to the live URL and/or gitHub repo for each app below:</p>
@@ -41,26 +32,22 @@ export default function Home() {
 
       <div class="flex">
 
-
-        {/* <a href="https://github.com/xnd0/CmdLine_OrgChart_12.1"> */}
+        {/* <a href="https:// Easy Keys "> */}
+        <a href="https://github.com/xnd0/FigJam">
           <section class="app-card">
-            <div class="app-title"> Command Line Org Chart Generator </div>
-
+            <div class="app-title"> Easy Keys </div>
             <section>
               <div class="app-img app-card-content">
-                <img src={orgchart} alt="orgchart generator screenshot" class="app-img" />
+                <img src={figjam} alt="figjam app screenshot" class="app-img" />
               </div>
               <p class="light-text">
-                A command line orgchart generator - to create and manage an employee database. It uses Node, Inquirer, and MySQL.
+                Ultra-lightweight touchscreen synth-piano web app. Click or use your keyboard to play. Desktop and Mobile friendly
               </p>
-
-            {/* <button className='glow-on-hover'> Live URL </button> */}
-            <a href="https://github.com/xnd0/CmdLine_OrgChart_12.1" className='glow-on-hover'> GitHub Repo </a>
-
             </section>
+            <a href="#" className='glow-on-hover'> Live URL </a>
+            <a href="#" className='glow-on-hover'> GitHub Repo </a>
           </section>
-        {/* </a> */}
-
+        </a>
 
         {/* <a href="WEST Coast smoke and FIRE"> */}
         <a href="https://github.com/xnd0/FigJam">
@@ -79,22 +66,20 @@ export default function Home() {
           </section>
         </a>
 
-        {/* <a href="https:// Easy Keys "> */}
-        <a href="https://github.com/xnd0/FigJam">
-          <section class="app-card">
-            <div class="app-title"> Easy Keys </div>
-            <section>
-              <div class="app-img app-card-content">
-                <img src={figjam} alt="figjam app screenshot" class="app-img" />
-              </div>
-              <p class="light-text">
-                An ultra-lightweight touchscreen synth-piano web app. Click or use the keyboard to play. Desktop and Mobile friendly
-              </p>
-            </section>
-            <a href="#" className='glow-on-hover'> Live URL </a>
-            <a href="#" className='glow-on-hover'> GitHub Repo </a>
+        {/* <a href="https://github.com/xnd0/CmdLine_OrgChart_12.1"> */}
+        <section class="app-card">
+          <div class="app-title"> Command Line Org Chart Generator </div>
+
+          <section>
+            <div class="app-img app-card-content">
+              <img src={orgchart} alt="orgchart generator screenshot" class="app-img" />
+            </div>
+            <p class="light-text">
+              A command line orgchart generator - to create and manage an employee database. It uses Node, Inquirer, and MySQL.
+            </p>
           </section>
-        </a>
+          <a href="https://github.com/xnd0/CmdLine_OrgChart_12.1" className='glow-on-hover'> GitHub Repo </a>
+        </section>
 
         {/* <a href="https://supermarche-fromage-49994.herokuapp.com/"> */}
         <a href="https://github.com/xnd0/FigJam">
@@ -106,23 +91,6 @@ export default function Home() {
               </div>
               <p class="light-text">
                 A website for musical people - signup, login, post, browse, listen, & watch user's favorite music tracks and videos.
-              </p>
-            </section>
-            <a href="#" className='glow-on-hover'> Live URL </a>
-            <a href="#" className='glow-on-hover'> GitHub Repo </a>
-          </section>
-        </a>
-
-        {/* <a href="https://vast-headland-20181.herokuapp.com/"> */}
-        <a href="https://vast-headland-20181.herokuapp.com/">
-          <section class="app-card">
-            <div class="app-title"> Custom GoogleBooks API Search </div>
-            <section>
-              <div class="app-img app-card-content">
-                <img src={gbooks} alt="google booksearch screenshot" class="app-img" />
-              </div>
-              <p class="light-text">
-                An app to search google books API - allows users to create an account to save titles for later. User must login to save books to their account.
               </p>
             </section>
             <a href="#" className='glow-on-hover'> Live URL </a>
@@ -147,7 +115,7 @@ export default function Home() {
         </a>
 
         {/* <a href="https://xnd0.github.io/Are_We_There_Yet_Adventure_App/"> */}
-        <a href="https://github.com/xnd0/Are_We_There_Yet_Adventure_App">
+        {/* <a href="https://github.com/xnd0/Are_We_There_Yet_Adventure_App">
           <section class="app-card">
             <div class="app-title"> Are We There Yet </div>
             <section>
@@ -161,7 +129,7 @@ export default function Home() {
             <a href="#" className='glow-on-hover'> Live URL </a>
             <a href="#" className='glow-on-hover'> GitHub Repo </a>
           </section>
-        </a>
+        </a> */}
 
         <a href="https://github.com/xnd0/Team_Card_Generator_10.3">
           <section class="app-card">
@@ -178,6 +146,24 @@ export default function Home() {
             <a href="#" className='glow-on-hover'> GitHub Repo </a>
           </section>
         </a>
+
+        {/* <a href="https://vast-headland-20181.herokuapp.com/"> */}
+        <a href="https://vast-headland-20181.herokuapp.com/">
+          <section class="app-card">
+            <div class="app-title"> Custom GoogleBooks API Search </div>
+            <section>
+              <div class="app-img app-card-content">
+                <img src={gbooks} alt="google booksearch screenshot" class="app-img" />
+              </div>
+              <p class="light-text">
+                An app to search google books API - allows users to create an account to save titles for later. User must login to save books to their account.
+              </p>
+            </section>
+            <a href="#" className='glow-on-hover'> Live URL </a>
+            <a href="#" className='glow-on-hover'> GitHub Repo </a>
+          </section>
+        </a>
+
 
       </div>
       <br></br>
