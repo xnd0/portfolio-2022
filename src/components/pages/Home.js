@@ -50,7 +50,6 @@ export default function Home() {
           </section>
 
         {/* <a href="WEST Coast smoke and FIRE"> */}
-        <a href="https://github.com/xnd0/FigJam">
           <section class="app-card">
             <div class="app-title"> 
             <h4>Smoke and Fire Map</h4> 
@@ -66,10 +65,8 @@ export default function Home() {
             <a href="https://xnd0.github.io/westcoast-firemap/" className='glow-on-hover'> Live URL </a>
             <a href="https://github.com/xnd0/westcoast-firemap" className='glow-on-hover'> GitHub Repo </a>
           </section>
-        </a>
 
         {/* <a href="https://supermarche-fromage-49994.herokuapp.com/"> */}
-        <a href="https://github.com/xnd0/FigJam">
           <section class="app-card">
             <div class="app-title"> 
             <h4>FigJam - Music Blog</h4> 
@@ -85,7 +82,6 @@ export default function Home() {
             <a href="https://supermarche-fromage-49994.herokuapp.com/" className='glow-on-hover'> Live URL </a>
             <a href="https://github.com/xnd0/FigJam" className='glow-on-hover'> GitHub Repo </a>
           </section>
-        </a>
 
         {/* <a href="https://github.com/xnd0/CmdLine_OrgChart_12.1"> */}
         <section class="app-card">
@@ -137,7 +133,6 @@ export default function Home() {
           </section>
         </a> */}
 
-        <a href="https://github.com/xnd0/Team_Card_Generator_10.3">
           <section class="app-card">
             <div class="app-title"> 
             <h4>NodeJS Team Card Generator</h4>
@@ -153,10 +148,8 @@ export default function Home() {
             {/* <a href="#" className='glow-on-hover'> Live URL </a> */}
             <a href="https://github.com/xnd0/Team_Card_Generator_10.3" className='glow-on-hover'> GitHub Repo </a>
           </section>
-        </a>
 
         {/* <a href="https://vast-headland-20181.herokuapp.com/"> */}
-        <a href="https://vast-headland-20181.herokuapp.com/">
           <section class="app-card">
             <div class="app-title"> 
             <h4>Custom GoogleBooks API Search</h4> 
@@ -172,7 +165,6 @@ export default function Home() {
             <a href="https://vast-headland-20181.herokuapp.com/" className='glow-on-hover'> Live URL </a>
             <a href="https://github.com/xnd0/Search_GoogleBooks_Api_21.4" className='glow-on-hover'> GitHub Repo </a>
           </section>
-        </a>
 
       </div>
 
