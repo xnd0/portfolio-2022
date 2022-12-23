@@ -54,8 +54,8 @@ export default function Home() {
                 A command line orgchart generator - to create and manage an employee database. It uses Node, Inquirer, and MySQL.
               </p>
 
-            <button> Live URL </button>
-            <button> gitHub Repo </button>
+            {/* <button className='glow-on-hover'> Live URL </button> */}
+            <a href="https://github.com/xnd0/CmdLine_OrgChart_12.1" className='glow-on-hover'> GitHub Repo </a>
 
             </section>
           </section>
@@ -74,8 +74,8 @@ export default function Home() {
                 See real time information on wildfires and air quality index displayed on a map. Built with JavaScript, CSS, HTML, Leaflet, NASA API
               </p>
             </section>
-            <button> Live URL </button>
-            <button> gitHub Repo </button>
+            <a href="#" className='glow-on-hover'> Live URL </a>
+            <a href="#" className='glow-on-hover'> GitHub Repo </a>
           </section>
         </a>
 
@@ -88,11 +88,11 @@ export default function Home() {
                 <img src={figjam} alt="figjam app screenshot" class="app-img" />
               </div>
               <p class="light-text">
-                An ultra-lightweight touchscreen synth-piano web app:
+                An ultra-lightweight touchscreen synth-piano web app. Click or use the keyboard to play. Desktop and Mobile friendly
               </p>
             </section>
-            <button> Live URL </button>
-            <button> gitHub Repo </button>
+            <a href="#" className='glow-on-hover'> Live URL </a>
+            <a href="#" className='glow-on-hover'> GitHub Repo </a>
           </section>
         </a>
 
@@ -108,6 +108,8 @@ export default function Home() {
                 A website for musical people - signup, login, post, browse, listen, & watch user's favorite music tracks and videos.
               </p>
             </section>
+            <a href="#" className='glow-on-hover'> Live URL </a>
+            <a href="#" className='glow-on-hover'> GitHub Repo </a>
           </section>
         </a>
 
@@ -123,6 +125,8 @@ export default function Home() {
                 An app to search google books API - allows users to create an account to save titles for later. User must login to save books to their account.
               </p>
             </section>
+            <a href="#" className='glow-on-hover'> Live URL </a>
+            <a href="#" className='glow-on-hover'> GitHub Repo </a>
           </section>
         </a>
 
@@ -137,6 +141,8 @@ export default function Home() {
                 A website for wine professionals & enthusiasts - wineries may register and post information about their wines, to be displayed on the 'complete wine list'.
               </p>
             </section>
+            <a href="#" className='glow-on-hover'> Live URL </a>
+            <a href="#" className='glow-on-hover'> GitHub Repo </a>
           </section>
         </a>
 
@@ -152,6 +158,8 @@ export default function Home() {
                 An app for adventure - search by state to discover national parks and landmarks. Results are returned on the mainpage map. Save favorite places to remember for later.
               </p>
             </section>
+            <a href="#" className='glow-on-hover'> Live URL </a>
+            <a href="#" className='glow-on-hover'> GitHub Repo </a>
           </section>
         </a>
 
@@ -166,6 +174,8 @@ export default function Home() {
                 A command line application - to record employee information from a software engineering team and generate an HTML file that displays their info.
               </p>
             </section>
+            {/* <a href="#" className='glow-on-hover'> Live URL </a> */}
+            <a href="#" className='glow-on-hover'> GitHub Repo </a>
           </section>
         </a>
 
