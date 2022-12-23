@@ -9,7 +9,7 @@ export default function Contact() {
       <br></br>
       <h1>Contact</h1>
       <br></br>
-      <h5>For resume or other inquiries, please send requests to:</h5>
+      <h5 className='intro-words-2'>For resume or other inquiries, please send requests to:</h5>
       <br></br>
       <p>
         <h3>xdrcode@gmail.com</h3>
