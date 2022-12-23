@@ -22,7 +22,7 @@ export default function About() {
         <br></br>
         <br></br>
         <div className='intro-words-2'>
-          JavaScript · Python · React · CSS3 · HTML5 · SQL · MongoDB · Express · Bootstrap · HandlebarsJS · jQuery · Sequelize · GraphQL · Node
+          JavaScript · Python · React · CSS3 · HTML5 · Express · Bootstrap · HandlebarsJS · jQuery · Sequelize · GraphQL · MongoDB · SQL · Node
         </div>
         <br></br>
       </p>

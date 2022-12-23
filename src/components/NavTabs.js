@@ -11,7 +11,7 @@ function NavTabs({ currentPage, handlePageChange }) {
       {/* </div> */}
 
       <div class="light-text">
-        <img class="logo" src={spacesurfer} alt="spaceman surfing" /> Xander's portfolio page
+        <img class="logo" src={spacesurfer} alt="spaceman surfing" /> Xander's Portfolio
       </div>
 
       <ul className="nav nav-tabs center">

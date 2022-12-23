@@ -7,12 +7,12 @@ export default function Footer() {
     return (
         <div class="light-text center footer">
           <div>
-            <img class="logo"src={gitLogo} alt="gitHub cat logo"/> <a href="https://github.com/xnd0"> https://github.com/xnd0</a>
+            <img class="logo"src={gitLogo} alt="gitHub cat logo"/> <a href="https://github.com/xnd0" className='glow-on-hover'> https://github.com/xnd0</a>
           </div>
           <br></br>
           <div>
           <img class="logo"src={emailLogo} alt="email envelope logo"/> 
-            <a href="mailto:xdrcode@gmail.com"> xdrcode@gmail.com</a>
+            <a href="mailto:xdrcode@gmail.com" className='glow-on-hover'> xdrcode@gmail.com</a>
           </div>
           <div class="vertical-fade"></div>
         </div>

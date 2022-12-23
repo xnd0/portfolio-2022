@@ -7,7 +7,7 @@ body {
     /* background-color: #25252A; */
     /* background-color: #17173b; */
     /* background-image: linear-gradient(#161640, #080814); */
-    background-image: linear-gradient(#030326, #01010a);
+    background-image: linear-gradient(#060639, #01010a);
 }
 
 a:link {
@@ -46,6 +46,15 @@ a:link {
 .app-title {
     color:rgb(243, 234, 222);
     font-size: 1.3rem;
+    padding-top: 2px;
+    background-image: linear-gradient(rgb(7, 13, 39),rgb(4, 2, 16));
+    border-radius: 4px;
+}
+
+.app-card-text {
+    margin-top: 2px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .smaller-text {
@@ -96,7 +105,7 @@ a:link {
     /* background-color: rgb(4, 2, 16); */
     /* background-image: linear-gradient(rgb(4, 2, 16), rgb(20, 16, 46)); */
     background-image: linear-gradient(to right, rgb(4, 2, 16), rgb(39, 58, 143));
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid #F2FCFF;
 }
 
 .nav-item {
@@ -162,9 +171,10 @@ a:link {
     background-color: #F2FCFF;
     color: rgb(10, 4, 40);
     z-index: 2;
+    padding-top: 2px;
 }
 
-
+/* Glow on Hover: */
 /* Glow on Hover: */
 .glow-on-hover {
     /* width: 220px;
