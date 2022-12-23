@@ -147,6 +147,8 @@ a:link {
     position: sticky;
     top: 0px;
     z-index: 1;
+    padding-top: 1px;
+    padding-left: 2px;
 }
 
 .intro {
