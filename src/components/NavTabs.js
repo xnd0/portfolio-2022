@@ -9,9 +9,11 @@ function NavTabs({ currentPage, handlePageChange }) {
       {/* <div class="logo"> */}
       {/* <img class="logo"src={spacesurfer} alt="spaceman surfing" /> */}
       {/* </div> */}
+
       <div class="light-text">
-        <img class="logo" src={spacesurfer} alt="spaceman surfing" /> The xnd0 gitHub portfolio page <img class="logo" src={spacesurfer} alt="spaceman surfing" />
+        <img class="logo" src={spacesurfer} alt="spaceman surfing" /> Xander's Portfolio
       </div>
+
       <ul className="nav nav-tabs center">
         <li className="nav-item">
           <a
